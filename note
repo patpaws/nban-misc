@@ -1,0 +1,22 @@
+you need set prompt for getting questions from the main symptokm : means if the paitnent says headach e
+you have to have some questions related to that headache 
+
+
+
+
+1.todo  : better prompt : context , maybe langchain : you have to do super cool on english
+
+
+
+1. for now all the things gonna load from the .env file
+
+
+2. better way to handle context and memory : 
+
+3. one of the right templates [
+    <s>[INST] <<SYS>>
+    {your_system_message}
+    <</SYS>>
+    user_message_1} [/INST] {model_reply_1}</s><s>[INST] {user_message_2} [/INST]
+]
+
